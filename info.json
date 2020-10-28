@@ -1,11 +1,11 @@
 {
     "name": "K2SETweaks",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "title": "Krastorio2 and Space Exploration - various tweaks",
     "author": "Xon1",
     "contact": "",
     "homepage": "",
-    "factorio_version": "0.18",
+    "factorio_version": "1.0",
     "dependencies": [
         "base",
         "Krastorio2",
