@@ -66,6 +66,16 @@ krastorio.matter_func.createMatterRecipe({
   unlocked_by_technology = "se-kr-matter-vitamelange-processing"
 })
 
+krastorio.matter_func.createMatterRecipe({
+  item_name = "solid-fuel",
+  minimum_conversion_quantity = 20,
+  matter_value = 4,
+  conversion_matter_value = 2,
+  energy_required = 1,
+  need_stabilizer = false,
+  unlocked_by_technology = "kr-matter-processing"
+})
+
 local data_util = require("__space-exploration__/data_util")
 
 local heat_capacity = data_util.string_to_number(data.raw.fluid.steam.heat_capacity)
