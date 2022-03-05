@@ -22,7 +22,7 @@ local make_tech = function(tech_name, tech_image, cost)
       name = tech_name,
       mod = "K2SETweaks",
       icons = {
-        { icon = "__Krastorio2__/graphics/technologies/backgrounds/matter.png", icon_size = 128},
+        { icon = "__Krastorio2Assets__/graphics/technologies/backgrounds/matter.png", icon_size = 128},
         { icon = "__space-exploration-graphics__/graphics/technology/"..tech_image..".png", icon_size = 128, scale = 0.5}
       },
       effects = {},
